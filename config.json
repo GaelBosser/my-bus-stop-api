@@ -1,4 +1,4 @@
 ﻿{
-    "connectionString": "mongodb://localhost/mybusstop",
+    "connectionString": "mongodb+srv://my-bus-stop:6Kx9TEfQPjhfOMGu@mybusstop-gtjqo.mongodb.net/test?retryWrites=true&w=majority",
     "secret": "MYBUSSTOP"
 }
