@@ -6,9 +6,10 @@ const schema = new Schema({
     hash: { type: String, required: true },
     firstName: { type: String, required: true },
     lastName: { type: String, required: true },
-    createdDate: { type: Date, default: Date.now }
+    createdDate: { type: Date, default: Date.now },
+    tokenFirebase: { type: String }
 });
 
-schema.set('toJSON', { virtuals: true });
+schema.set('toJSON', { virtuals: true, default: "" });
 
 module.exports = mongoose.model('User', schema);
